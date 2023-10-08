@@ -26,6 +26,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  margin: right 4.75em;
 }
 
 .link {
@@ -45,6 +46,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding: 24px 0;
+  display: flex;
+  gap: 2.5em;
 }
 
 .page-description:hover {
@@ -186,7 +190,7 @@ body {
 
 .container {
   width: 1158px;
-  padding: 15px;
+  padding: 0 15px;
   margin-inline: auto;
 }
 
@@ -205,4 +209,22 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.img {
+  display: block;
+}
+
+.header-top {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 2.5em;
 }
