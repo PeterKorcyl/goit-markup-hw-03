@@ -161,6 +161,12 @@ img {
 .logo-span {
   color: var(--light-color);
 }
+
+.section {
+  padding: 188px 0;
+  padding-bottom: 120px;
+  padding-top: 96px;
+}
 .main-one {
   background-color: var(--dark-color);
   padding: 188px 0;
@@ -193,12 +199,20 @@ img {
 .main-button:focus {
   background-color: var(--pressed-state-color);
 }
+
+.list-goals {
+  gap: 24px;
+}
+.point {
+  width: calc((100% - 72px) / 4);
+}
 .goal {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .what-doing-title {
   font-size: 36px;
@@ -227,6 +241,7 @@ img {
 }
 .our-team-card {
   background-color: var(--white-background-color);
+  gap: 24px;
 }
 .function {
   font-size: 16px;
