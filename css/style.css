@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 :root {
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
@@ -18,6 +23,23 @@ body {
   background-color: var(--white-background-color);
 }
 
+img {
+  display: block;
+}
+
+.header-top {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -26,11 +48,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  margin: right 4.75em;
+  margin-right: 76px;
 }
 
 .link {
   text-decoration: none;
+}
+
+.logo-header {
+  gap: 40px;
 }
 
 .span {
@@ -39,6 +65,20 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+
+.list-address {
+  display: flex;
+  gap: 40px;
+}
+.list-options {
 }
 
 .page-description {
@@ -192,6 +232,7 @@ body {
   width: 1158px;
   padding: 0 15px;
   margin-inline: auto;
+  display: flex;
 }
 
 .section {
@@ -209,22 +250,4 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.img {
-  display: block;
-}
-
-.header-top {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header-container {
-  display: flex;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  display: flex;
-  gap: 2.5em;
 }
