@@ -178,6 +178,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--white-background-color);
   max-width: 496px;
+  padding: 188px 0;
 }
 .main-button {
   background-color: var(--primary-brand-color);
@@ -192,6 +193,11 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  text-align: center;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
 }
 .main-button:hover {
   background-color: var(--pressed-state-color);
@@ -200,6 +206,9 @@ img {
   background-color: var(--pressed-state-color);
 }
 
+.main-two {
+  padding: 120px 0;
+}
 .list-goals {
   gap: 24px;
 }
@@ -214,6 +223,10 @@ img {
   color: var(--dark-color);
   margin-bottom: 8px;
 }
+
+.main-three {
+  padding: 120px 0;
+}
 .what-doing-title {
   font-size: 36px;
   line-height: 1.11;
@@ -221,6 +234,14 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
+}
+
+.list-item {
+  gap: 24px;
+}
+.point-work {
+  flex-basis: calc((100% - 48px) / 3);
 }
 .paragraph-footer {
   font-size: 16px;
@@ -230,6 +251,7 @@ img {
 }
 .our-team {
   background-color: var(--light-color);
+  margin-bottom: 72px;
 }
 .our-team-title {
   font-size: 36px;
