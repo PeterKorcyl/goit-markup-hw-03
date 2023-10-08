@@ -301,6 +301,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -319,6 +320,9 @@ img {
   border: 1px #e7e9fc solid;
   background-color: var(--light-color);
   color: var(--primary-brand-color);
+  padding: 12px 24px;
+  margin-top: 96px;
+  margin-bottom: 72px;
 }
 .button-list:hover {
   border: 1px solid transparent;
@@ -328,6 +332,11 @@ img {
 }
 
 .list-options {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.containter-list-options {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -352,7 +361,7 @@ img {
 }
 
 .section {
-  padding: 120px; /*120px/16px=7,5em*/
+  padding: 120px 0; /*120px/16px=7,5em*/
 }
 
 h1,
