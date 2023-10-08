@@ -117,7 +117,7 @@ body {
 .logo-span {
   color: var(--light-color);
 }
-.main {
+.main-one-section {
   background-color: var(--dark-color);
 }
 .main-title {
