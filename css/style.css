@@ -354,7 +354,6 @@ img {
   background-color: var(--light-color);
   color: var(--primary-brand-color);
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 .button-list:hover {
   border: 1px solid transparent;
