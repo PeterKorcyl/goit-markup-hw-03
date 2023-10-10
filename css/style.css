@@ -276,7 +276,8 @@ img {
 
 .footer {
   background-color: var(--dark-color);
-  padding: 101.5px 0px 100px 0px;
+  padding: 100px 0;
+  margin-bottom: 16px;
 }
 
 .logo-footer-span {
@@ -310,10 +311,15 @@ img {
   letter-spacing: 0.02em;
 }
 
+.list-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .list-filters {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filter-button {
