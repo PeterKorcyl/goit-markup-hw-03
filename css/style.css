@@ -55,7 +55,7 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 76px;
-  margin-bottom: 25.5px;
+  margin-bottom: 16px;
   display: inline-block;
   padding-top: 25.5px;
 }
@@ -277,7 +277,6 @@ img {
 .footer {
   background-color: var(--dark-color);
   padding: 100px 0;
-  margin-bottom: 16px;
 }
 
 .logo-footer-span {
@@ -294,11 +293,6 @@ img {
   letter-spacing: 0.02em;
   word-wrap: break-word;
   max-width: 264px;
-}
-
-.section {
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .button {
